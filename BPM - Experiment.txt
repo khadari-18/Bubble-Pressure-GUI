@@ -1,0 +1,23 @@
+-----------------
+The following steps are used to extract curvature inducing stresses at material interfaces. Briefly in this assay, pressure is measured in a needle that creates bubbles with a pump in a sample of interest. 
+
+1. First, the effective radius(radii), r, of the needle(s) are found using samples of known surface tensions, Y (e.g., ethanol) with the Laplace pressure, Pc = 2Y/r, at the moment of bubble bursting. 
+[Note:  
+	- the spherical assumption for Laplace's relationship holds better for smaller capillaries.
+	- any air resistance in the needle is avoided by starting the pump before penetration and zeroing for that pressure. 
+	- using the effective r may also calibrate the system for viscous resistances as well.
+	- keep needle tip away from the boundaries and drive the stuck bubbles (if any) out of the way for cavitation consistency. 
+]
+
+2. The calibration flow rate and needle penetration depth are to be kept the same as the calibration while measuring the sample
+
+3. The consecutive critical pressures (Pc) may differ significantly before stabilizing around a certain value. The Pressure-time data is to be recorded after this stage is reached.   
+[Note: this stabilization is not the same as surface adsorption equilibration]
+
+4. Repeat step 3 if multiple needles are to be used. 
+[Note: 
+	- the needle sizes need to be fairly different (e.g., 27Gg and 31Gg) if the measurements are to be treated as independent in the calculations. 
+	- the flow rates, Q, are to be kept low for better adsorption equilibrations. 
+	- when using multiple needles, Q should be selected such that Q1/Q2 ~ (r2/r1)^2 to keep the area expansion ratios (area hencky strains) close. This helps with decoupling the surface dilatational modulus (please refer 	  to the slides) by keeping dr/dt constant for the needles.  
+]
+-----------------
